@@ -1,12 +1,9 @@
 /**
  * @typedef {import('stream').Readable} Readable
- * @typedef {import('../types').Stream} StreamImpl
  */
 
 /**
  * A Readable stream wrapper.
- *
- * @implements {StreamImpl}
  */
 export class Stream {
   /** @type {Buffer | undefined} */
