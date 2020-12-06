@@ -1,1 +1,1 @@
-export { Stream } from './src/index.js';
+export { Stream } from './lib/index.js';
