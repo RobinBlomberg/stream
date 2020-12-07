@@ -1,6 +1,6 @@
 {
   "name": "@robinblomberg/stream",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "author": "Robin Blomberg",
   "type": "module",
   "main": "lib/index.js",
@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test && npm run check && npm run lint:fix"
+      "pre-commit": "npm run test && npm run check && lint-staged"
     }
   },
   "lint-staged": {
