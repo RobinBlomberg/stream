@@ -1,6 +1,6 @@
 import * as Assert from 'assert';
 import * as Http from 'http';
-import { Stream } from './index.js';
+import { Stream } from '../lib/index.js';
 
 const PORT = 3000;
 
